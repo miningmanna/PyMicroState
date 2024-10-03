@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pymicrostate"
+version = "0.0.1"
+description = "A Gang of Four state machine library allowing orthogonal and sub states"
+authors = ["miningmanna"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
